@@ -1,0 +1,17 @@
+{
+    "name": "yuga/admin",
+    "description": "Administration for your application",
+    "type": "yuga-module",
+    "autoload": {
+        "psr-4": {
+            "Yuga\\Admin\\": "src/Admin/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamid Ssemitala",
+            "email": "semix.hamidouh@gmail.com"
+        }
+    ],
+    "require": {}
+}
