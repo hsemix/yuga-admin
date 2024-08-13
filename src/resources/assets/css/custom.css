@@ -1,0 +1,187 @@
+:root {
+    --mcash-primary: #f7941e;
+    --mcash-secondary: #3d505a;
+}
+
+
+body.login-page {
+    /* background-image: url('../images/login-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: var(--mcash-secondary);
+}
+
+body.register-page {
+    background-color: var(--mcash-secondary);
+}
+
+.sidebar-dark-primary {
+    background-color: var(--mcash-secondary);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--mcash-primary);
+}
+
+.nav-pills .nav-link {
+    color: #6c757d;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    color: var(--mcash-primary);
+}
+
+
+.nav-link.prod-mode span,
+.nav-link.dev-mode span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.nav-link.prod-mode span {
+    background-color: green;
+    border-color: green;
+}
+
+.nav-link.dev-mode span {
+    background-color: var(--mcash-primary);
+    border-color: var(--mcash-primary);
+}
+
+/* .btn-success {
+    color: #fff;
+    background-color: var(--mcash-primary);
+    border-color: var(--mcash-primary);
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: var(--mcash-secondary);
+    border-color: var(--mcash-secondary);
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    color: #fff;
+    background-color: var(--mcash-secondary);
+    border-color: var(--mcash-secondary);
+}
+
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: var(--mcash-secondary);
+    border-color: var(--mcash-secondary);
+} */
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--mcash-primary);
+    border-color: var(--mcash-primary);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--mcash-secondary);
+    border-color: var(--mcash-secondary);
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    background-color: var(--mcash-secondary);
+    border-color: var(--mcash-secondary);
+    /* box-shadow: 0 0 0 0 rgba(38,143,255,.5); */
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: var(--mcash-primary);
+    border-color: var(--mcash-primary);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--mcash-secondary);
+    border-color: var(--mcash-secondary);
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid var(--mcash-primary);
+}
+
+.card-primary:not(.card-outline)>.card-header {
+    background-color: var(--mcash-primary);
+}
+
+.text-success {
+    color: var(--mcash-primary) !important;
+}
+
+a.text-success:focus,
+a.text-success:hover {
+    color: var(--mcash-secondary) !important;
+}
+
+a {
+    color: var(--mcash-primary);
+}
+
+a:hover {
+    color: var(--mcash-secondary);
+}
+
+.page-link {
+    color: var(--mcash-primary);
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: var(--mcash-primary);
+    border-color: var(--mcash-primary);
+}
+
+label.error {
+    font-weight: normal !important;
+    color: darkred;
+    font-size: small;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: var(--mcash-primary);
+    border-color: var(--mcash-primary);
+    color: #fff;
+    padding: 0 10px;
+    margin-top: .31rem;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[aria-selected]:hover {
+    background-color: var(--mcash-primary);
+    color: #fff;
+}
+
+.sorting_disabled {
+    /* display: none; */
+}
+
+
+.bg-theme-primary, .bg-theme-primary > a {
+    color: #ffffff !important;
+  }
+  .bg-theme-primary {
+    background-color: var(--mcash-primary) !important;
+  }
