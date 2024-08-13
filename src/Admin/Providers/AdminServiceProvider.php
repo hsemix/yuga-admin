@@ -4,16 +4,17 @@ namespace Yuga\Admin\Providers;
 
 use Yuga\Route\Route;
 use Yuga\Providers\ServiceProvider;
-use Yuga\Application\Application as App;
 use Yuga\Interfaces\Application\Application;
+use Yuga\Providers\Shared\MakesCommandsTrait;
 
 class AdminServiceProvider extends ServiceProvider
 {
-    protected $app;
+    use MakesCommandsTrait;
 
-    public function __construct(App $app)
+    
+    public function load(Application $app)
     {
-        $this->app = $app;
+        
     }
 
     public function boot(Route $router)
@@ -21,10 +22,5 @@ class AdminServiceProvider extends ServiceProvider
         $router->group(['prefix' => 'admin', 'namespace' => 'Yuga\Admin\Controllers'], function () {
             require __DIR__ . '/../Routes/web.php';
         });
-    }
-
-    public function load(Application $app)
-    {
-        
     }
 }

@@ -1,7 +1,9 @@
 {
     "name": "yuga/admin",
     "description": "Administration for your application",
+    "keywords": ["framework", "Yuga", "Admin"],
     "type": "yuga-module",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Yuga\\Admin\\": "src/Admin/"
