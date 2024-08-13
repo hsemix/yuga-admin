@@ -2,11 +2,9 @@
 
 namespace Yuga\Admin\Controllers;
 
-use Yuga\Controllers\Controller;
-
 class AdminController extends Controller
 {
-    public function getIndex()
+    public function index()
     {
         return 'Hellos';
     }

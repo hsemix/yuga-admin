@@ -1,6 +1,6 @@
 <?php
 
-namespace Tox\Controllers;
+namespace Yuga\Admin\Controllers;
 
 use Yuga\Controllers\Controller as Base;
 
@@ -10,8 +10,8 @@ class Controller extends Base
     {
         parent::__construct();
 
-        if (!is_dir(path('resources/views/admin'))) {
-            $this->view->setTemplateDirectory(app('tox_views'));
+        if (!is_dir(path('resources/views/yuga/admin'))) {
+            $this->view->setTemplateDirectory(app('yuga-admin-views'));
         }
 
         $this->view->menu = [
